@@ -46,6 +46,3 @@ https://songsunkook.github.io/process-scheduling-RR
 4) Arrival Time과 Service Time을 기입한다. (필요한 경우 Randomize Values를 클릭하여 랜덤으로 값을 기입할 수 있다.)
 5) Run Simulation을 눌러 시뮬레이션을 실행한다.
 6) 새로운 시뮬레이션을 실행하기 위해서는 Reset 버튼을 눌러 초기화할 수 있다.
-
-## 느낀 점
-라운드 로빈 스케줄링 방식에 대해 잘 이해하고 있다고 생각했는데 막상 구현하고 그 결과를 GUI로 표현하려니 막막했다. 이번 실습 과제가 라운드 로빈 스케줄링에 대해 더 이해할 수 있는 기회가 되어 좋았다. 기회가 된다면 나중에 다른 프로세스 스케줄링 방식도 직접 구현해보고 싶다는 생각이 들었다.
