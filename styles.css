@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fixed-controls {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1000;
+}
+
+.fixed-controls label, .fixed-controls input, .fixed-controls button {
+    margin: 5px;
+}
+
+.scrollable-content {
+    flex: 1;
+    width: 100%;
+    margin-top: 90px; /* Account for the fixed controls height */
+    overflow-y: auto;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    margin: auto; /* Center the content horizontally */
+}
+
+.process-list {
+    margin-bottom: 20px;
+}
+
+.process-headers {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.process-entry {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.process-entry span {
+    width: 30%;
+    line-height: 2em;
+}
+
+.process-entry input {
+    width: 30%;
+    font-size: 1em;
+}
+
+.gantt-chart {
+    margin-bottom: 20px;
+}
+
+.gantt-chart-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); /* Adjusted to allow dynamic wrapping */
+    gap: 2px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+.gantt-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #add8e6;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+    white-space: nowrap;
+}
+
+.time-block {
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    white-space: nowrap;
+}
+
+.results {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}

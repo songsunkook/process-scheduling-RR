@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Round Robin Scheduling Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="fixed-controls">
+        <label for="delta">Delta (Time Quantum):</label>
+        <input type="number" id="delta" name="delta">
+        <button onclick="addProcess()">Add Process</button>
+        <button onclick="randomizeValues()">Randomize Values</button>
+        <button onclick="runSimulation()">Run Simulation</button>
+        <button onclick="resetAll()">Reset</button>
+    </div>
+    <div class="scrollable-content">
+        <div class="container">
+            <div class="process-list">
+                <div class="process-headers">
+                    <span>Process ID</span>
+                    <span>Arrival Time</span>
+                    <span>Service Time</span>
+                </div>
+                <div id="process-entries"></div>
+            </div>
+            <div id="gantt-chart" class="gantt-chart"></div>
+            <div id="results" class="results"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
