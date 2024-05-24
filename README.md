@@ -9,18 +9,6 @@
 ## 사용한 기술 스택
 html과 css, javascript를 사용하여 구현했다.
 
-## 컴파일(실행) 방법
-### 컴파일을 통한 실행 방법
-1) Visual Studio Code를 설치한다.
-2) live server 플러그인을 설치한다.
-3) 소스코드 압축을 풀고 Visual Studio Code 상단 메뉴 > 파일 > 폴더 열기를 통해 압축해제한 경로를 연다.
-4) index.html, styles.css, script.js가 있을텐데, index.html을 열고 Open with Live Server를 클릭한다.
-5) 웹 브라우저가 열리면서 프로그램이 실행된다.
-
-### 컴파일 없이 실행 방법
-github 서비스를 통해 프로그램을 배포해두었기 때문에 아래 링크에 접속하면 바로 프로그램을 실행해볼 수 있다.
-https://songsunkook.github.io/process-scheduling-RR
-
 ## UI 설명
 ![](https://i.imgur.com/okXOlZP.png)
 위 그림은 실제 실행 화면에 설명을 위한 그림을 추가한 것이다. 번호에 따른 설명은 다음과 같다.
